@@ -1,9 +1,9 @@
 ## Caching the inverse of a matrix!
 
 ## This function creates a matrix that can cache its inverse.
-## - set function allows you to reset the value of the matrix
-## - get function allows you to retrieve the matrix
-## - getinv function allows you to retrieve the inverse after 
+## - set function allows to reset the value of the matrix
+## - get function allows to retrieve the matrix
+## - getinv function allows to retrieve the inverse after 
 ##   using the cacheSolve function below to calculate the inverse
 
 makeCacheMatrix <- function(x = matrix()) {
